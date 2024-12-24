@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Retro TV with Dark Wall Background</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to our external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+    <!-- TV Container -->
+    <div class="tv-container">
+      <div class="tv-casing">
+        <!-- The 1280×720 screen -->
+        <div class="tv-screen">
+          <div class="screen-inner" id="screenInner">
+            <div class="reflection"></div>
+          </div>
+        </div>
+
+        <!-- Bottom panel -->
+        <div class="tv-bottom-panel">
+          <div class="speaker"></div>
+          <div class="knobs">
+            <div class="knob"></div>
+            <div class="knob"></div>
+            <div class="knob"></div>
+            <!-- Power knob -->
+            <div class="power-knob" id="powerKnob">
+              <div class="led" id="powerLed"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reference our external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
